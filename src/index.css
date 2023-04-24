@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arvo', serif;
+  
 }
 
 html , body , #root {
-  background-color: #453252 ;
+  background-color: antiquewhite ;
   height: 100%;
+  font-family: 'Teko', sans-serif;
 }
 
 #root {
@@ -19,24 +20,30 @@ html , body , #root {
   text-align: center;
   align-items: center;
   display: flex;
-  background-color:#82CF59 ;
+  background-color:aliceblue;
   justify-content: space-around;
   width: 100%;
   height: 4.5rem;
+  font-family: 'Bruno Ace', cursive;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  
 
 }
 
 #Link{
   text-decoration: none;
-  color: whitesmoke;
-  font-size: 1.2rem;
+  color: black;
+  font-size: 1rem;
+  
 }
 
 #Logo{
-  font-size: 3rem;
-  -webkit-text-stroke: 0.5px whitesmoke;
+  font-size: 1.5rem;
   color: black; 
-  
+  font-family: 'Press Start 2P', cursive;
+
+ 
 }
 
 
